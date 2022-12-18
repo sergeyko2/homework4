@@ -8,6 +8,11 @@ public class Wall implements Barrier {
     }
 
     @Override
+    public String name() {
+        return "wall";
+    }
+
+    @Override
     public String overcome() {
         return "over a " + height + "m wall";
     }

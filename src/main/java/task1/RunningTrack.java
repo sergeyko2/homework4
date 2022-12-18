@@ -8,6 +8,11 @@ public class RunningTrack implements Barrier {
     }
 
     @Override
+    public String name() {
+        return "treadmill";
+    }
+
+    @Override
     public String overcome() {
         return length + "m on the treadmill";
     }
