@@ -1,7 +1,6 @@
 package task0;
 
 public class Circle implements Figure {
-
     private double radius;
 
     public Circle(double radius) {
