@@ -16,10 +16,4 @@ public class Human implements Participant {
     public String jump() {
         return "Human " + personalName + " jumped ";
     }
-
-    @Override
-    public String action(Barrier barrier) {
-        if (barrier.name() == "treadmill") return this.run();
-        else return this.jump();
-    }
 }

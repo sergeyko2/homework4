@@ -16,9 +16,4 @@ public class Robot implements Participant {
     public String jump() {
         return "Robot " + personalName + " jumped ";
     }
-
-    public String action(Barrier barrier) {
-        if (barrier.name() == "treadmill") return this.run();
-        else return this.jump();
-    }
 }

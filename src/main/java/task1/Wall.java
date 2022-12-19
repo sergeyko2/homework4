@@ -13,7 +13,7 @@ public class Wall implements Barrier {
     }
 
     @Override
-    public String overcome() {
-        return "over a " + height + "m wall";
+    public String overcome(Participant participant) {
+        return participant.jump() + "over a " + height + "m " + name();
     }
 }

@@ -7,8 +7,8 @@ public class MainApp {
     }
 
     private static double calcTotalArea(Figure[] figures) {
-        double s = 0;
-        for (Figure fig : figures) s += fig.area();
-        return s;
+        double totalArea = 0;
+        for (Figure figure : figures) totalArea += figure.area();
+        return totalArea;
     }
 }

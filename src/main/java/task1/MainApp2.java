@@ -11,6 +11,6 @@ public class MainApp2 {
     private static void showCompetition(Participant[] participants, Barrier[] barriers) {
         for (Participant member : participants)
             for (Barrier barrier : barriers)
-                System.out.println(member.action(barrier) + barrier.overcome());
+                System.out.println(barrier.overcome(member));
     }
 }

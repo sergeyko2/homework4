@@ -13,7 +13,7 @@ public class RunningTrack implements Barrier {
     }
 
     @Override
-    public String overcome() {
-        return length + "m on the treadmill";
+    public String overcome(Participant participant) {
+        return participant.run() + length + "m om the " + name();
     }
 }
